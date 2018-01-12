@@ -158,6 +158,8 @@ The left columns are default options in non-interactive (or CI) mode.
 
 The `prompt.*` options on the right in the table are used for the default answers in interactive mode. You can still change the answer to either `Y` or `N` as the questions show up (or cancel the process with `Ctrl-c`).
 
+Also, if e.g. `npm.publish` is `false`, the related prompt (`prompt.src.publish`) will not be shown (regardless of its default answer).
+
 ## 🔗 Command Hooks
 
 The command hooks are executed from the root directory of the `src` or `dist` repository, respectively:
